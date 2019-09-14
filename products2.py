@@ -12,5 +12,5 @@ print(products)
 
 #products[0][0] #第0格大清單中的第0格小清單
 
-for p in prducts:
-	print(p)
+for p in products:
+	print(p[0], '的價格是', p[1])

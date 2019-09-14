@@ -10,5 +10,7 @@ while True:
 	products.append(p) #上三行可直接寫成products.append([name, price])
 print(products)
 
-products[0][0] #第0格大清單中的第0格小清單
+#products[0][0] #第0格大清單中的第0格小清單
 
+for p in prducts:
+	print(p)

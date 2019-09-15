@@ -14,3 +14,9 @@ print(products)
 
 for p in products:
 	print(p[0], '的價格是', p[1])
+
+# 'abc' + '123' = 'abc123' 字串可+
+
+with open ('products.csv', 'w') as f: #當資料中有多種不同屬性之變數，可用exl打開
+	for p in products:
+		f.write(p[0] + ',' + p[1] + '\n') # +逗號是為了讓不同屬性可隔成兩格
